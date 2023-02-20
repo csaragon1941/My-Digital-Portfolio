@@ -9,7 +9,7 @@ export default function Contact() {
           Contact
         </h1>
       </div>
-      <div className="relative z-10 rounded-md shadow-md bg-[#302522] p-4 md:p-10 lg:p-20 max-w-5xl mx-auto mb-20 -mt-4">
+      <div className="relative z-10 rounded-md shadow-md bg-[#54413B] p-4 md:p-10 lg:p-20 max-w-5xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -26,7 +26,7 @@ export default function Contact() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="#CDBCB7"
+                  fill="#EFEDE7"
                   className="bi bi-telephone-fill h-4 w-4 text-white-100" 
                   viewBox="0 0 16 16"
                 >
@@ -44,7 +44,7 @@ export default function Contact() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="#CDBCB7"
+                  fill="#EFEDE7"
                   className="bi bi-envelope-fill h-4 w-4 text-white-100"
                   viewBox="0 0 16 16"
                 >
@@ -59,7 +59,7 @@ export default function Contact() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="#CDBCB7"
+                  fill="#EFEDE7"
                   className="bi bi-pin-fill h-4 w-4 text-white-500"
                   viewBox="0 0 16 16"
                 >
@@ -148,7 +148,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#C1D7AE]"
+              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#B3AEA8]"
               name="name"
             />
             <label htmlFor="email" className="text-sm font-semibold text-[#1F1F1F] mx-4 mt-4">
@@ -156,7 +156,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#C1D7AE]"
+              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#B3AEA8]"
               name="email"
             />
             <label
@@ -168,12 +168,12 @@ export default function Contact() {
             <textarea
               rows="4"
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#C1D7AE]"
+              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-[#B3AEA8]"
               name="message"
             ></textarea>
             <button
               type="submit"
-              className="bg-slate-500 hover:bg-slate-600 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold "
+              className="bg-[#786F68] hover:bg-[#483A33] rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold "
             >
               Send Message
             </button>

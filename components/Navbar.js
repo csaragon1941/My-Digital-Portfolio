@@ -62,7 +62,7 @@ export default function Navbar() {
                 : "text-gray-600 dark:text-[#FFFCF2] font-normal "
             }`}
           >
-            Projects
+            Integrated API
             {router.asPath === "/projects" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
